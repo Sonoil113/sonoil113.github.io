@@ -2,13 +2,44 @@ body{
     background-color: #fff7d4;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
-}
+    border: 1px, solid, black;
+    padding-top: 10%;
+    }
 header{
+    width: 50%;
     background-color: #22B573;
-    font-family: Futura ;
+    font-family: futura;
     color: white;
+    border: 1px, solid, black;
+}
+#logo{
+    padding: 2%;
 }
 nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    width: 80%;
+    border: 1px, solid, black;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: none;
+}
+li{
+    border: 1px, solid, black;
+
+}
+.gallerie{
+    width: 50%;
+    background-color: #22B573;
+    font-family: futura;
+    color: white;
+    border: 1px, solid, black;
     display: flex;
 }

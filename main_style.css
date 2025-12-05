@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Futura_Bold';
+    font-family: 'Futura_Bold', sans-serif;
     src: url(Multimedia/fonts/Futura_Bold.otf);
 }
 
@@ -59,3 +59,4 @@ main {
 .contenus-section1{
     display: flex;
 }
+

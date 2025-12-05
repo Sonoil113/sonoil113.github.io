@@ -1,15 +1,61 @@
 @font-face {
-    font-family: 'Futura_Bold', 'sans-serif';
+    font-family: 'Futura_Bold';
     src: url(Multimedia/fonts/Futura_Bold.otf);
 }
-body{
+
+body {
     background-color: #fff7d4;
-    font-family: 'Futura_Bold';
+    font-family: 'Futura_Bold', sans-serif;
     color: white;
-    }
-header{
-     background-color: #22B573;
+    margin: 0;
 }
 
+header {
+    background-color: #22B573;
+    text-align: center;
+    width: 65%;
+    padding: 5rem;
+    margin: 4rem auto; 
+}
 
+header img{
+    height: auto;
+    width: 22rem;
+}
 
+h1{
+    margin: 3rem;
+}
+
+#slogan{
+    margin: 3rem;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
+
+#section1{
+    background-color: #22B573;
+    text-align: center;
+    padding: 5rem;
+    width: 65%;
+    margin: 4rem auto;
+}
+.contenus-section1{
+    display: flex;
+}

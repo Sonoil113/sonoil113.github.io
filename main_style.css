@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Futura_Bold', sans-serif;
+    font-family: 'Futura_Bold', 'sans-serif';
     src: url(Multimedia/fonts/Futura_Bold.otf);
 }
 body{
@@ -10,5 +10,6 @@ body{
 header{
      background-color: #22B573;
 }
+
 
 

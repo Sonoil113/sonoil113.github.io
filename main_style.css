@@ -3,6 +3,11 @@
     src: url(Multimedia/fonts/Futura_Bold.otf);
 }
 
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(Multimedia/fonts/Lato-Regular.ttf);
+}
+
 body {
     background-color: #fff7d4;
     font-family: 'Futura_Bold',sans-serif;
@@ -14,13 +19,13 @@ header {
     background-color: #22B573;
     text-align: center;
     width: 65%;
-    padding: 5rem;
-    margin: 4rem auto; 
+    padding: 3vw 6vw;
+    margin: 5vw auto;
 }
 
 header img{
     height: auto;
-    width: 22rem;
+    width: 40vw;
 }
 
 h1{
@@ -35,7 +40,7 @@ nav ul{
     list-style: none;
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 3.5vw;
     margin: 0;
     padding: 0;
 }
@@ -52,9 +57,9 @@ main {
 #section1{
     background-color: #22B573;
     text-align: center;
-    padding: 2rem 5rem;
+    padding: 2vw 6vw;
     width: 65%;
-    margin: 4rem auto;
+    margin: 5vw auto;
 }
 
 .subtitle {
@@ -63,20 +68,103 @@ main {
 
 .contenus-section1{
     display: flex;
+    align-items: flex-start;
 }
 
-
 #gallerie{
-    height: 30rem;
-    width: auto;
-    margin: 3rem 6rem;
-    border: solid white 0.5rem
+    width: 40%; 
+    height: auto;
+    flex-shrink: 0; 
+    margin: 3vw 4vw 3vw 0;
+    border: solid white 0.5vw;
 }
 
 .textS1{
-    margin: 3rem 0rem;
-    flex-grow: 1;
+    margin: 3vw 0rem;
+    flex-grow: 1; 
+    flex-shrink: 1;
     text-align: left;
-    font-size: 1.3rem;
+    font-size: 1.5vw;
     line-height: 1.6;
+}
+
+#section2{
+    background-color: #22B573;
+    text-align: center;
+    padding: 2vw 6vw;
+    width: 65%;
+    margin: 5vw auto;
+}
+
+.contenus-section2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.imgs2{
+    width: 30%; 
+    height: auto;
+    flex-shrink: 0; 
+    margin: 2vw 0 0 0;
+    border: solid white 0.5vw; 
+}
+
+#exptitle{
+    text-align: left;
+    font-size: 2vw; 
+    margin: 3vw 0 0vw 0;
+}
+
+.foots2{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    padding-bottom: 2vw; 
+    font-size: 1.2vw;
+    margin-top: 0;
+}
+
+#aname{
+    font-family: 'Lato-Regular', sans-serif;
+    color: white; 
+    margin: 0;
+}
+
+#section3{
+    background-color: #22B573;
+    text-align: center;
+    padding: 2vw 6vw;
+    width: 65%;
+    margin: 5vw auto;
+}
+
+.line1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.line2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 3vw;
+}
+
+.imgs3{
+    width: 30%; 
+    height: auto;
+    flex-shrink: 0; 
+    margin: 2vw 0 0 0;
+    border: solid white 0.5vw;   
+}
+
+#section3 p{
+    text-align: right;
+    font-size: 1.2vw;
 }

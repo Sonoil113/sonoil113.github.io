@@ -49,6 +49,16 @@ nav ul li{
     display: inline-block;
 }
 
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
 main {
     margin: 0;
     padding: 0;
@@ -167,4 +177,108 @@ main {
 #section3 p{
     text-align: right;
     font-size: 1.2vw;
+}
+
+footer{
+    background-color: #22B573;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    padding: 3vw 6vw 0;
+    margin: 5vw auto;
+    width: 65%;
+
+}
+
+footer h2, footer h3 {
+    margin-top: 0;
+    margin-bottom: 3vw;
+    font-size: 2vw;
+    text-align: left;
+}
+
+.part1, .part2 {
+    width: 48%; 
+    text-align: left;
+}
+
+.subp1-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2vw;
+}
+
+#contacts{
+    list-style: none;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+}
+
+#contacts li{
+    font-size: 1.2vw;
+    line-height: 2;
+    text-align: left;
+}
+
+#horaires {
+    width: 45%;
+    margin: 0;
+    border-collapse: collapse;
+    font-size: 1.2vw;
+    text-align: left;
+}
+
+#horaires td {
+    padding: 0.5vw 0;
+}
+
+#horaires tr td:last-child {
+    font-family: 'Lato-Regular', sans-serif;
+}
+
+.part1 p {
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 1.2vw;
+    margin-top: 3vw;
+    text-align: center;
+    width: 100%;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw; 
+    width: 100%;
+    margin: 0;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%; 
+    box-sizing: border-box;
+    padding: 0.8vw;
+    border: none;
+    font-size: 1.2vw;
+    font-family: 'Futura_Bold', sans-serif;
+    color: #22B573; 
+    margin: 0; 
+}
+
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+    color: #22B573;
+    opacity: 1;
+}
+
+footer .homeb {
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+    width: 100%;
 }

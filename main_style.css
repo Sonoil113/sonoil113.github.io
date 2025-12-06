@@ -5,7 +5,7 @@
 
 body {
     background-color: #fff7d4;
-    font-family: 'Futura_Bold', sans-serif;
+    font-family: 'Futura_Bold',sans-serif;
     color: white;
     margin: 0;
 }
@@ -52,12 +52,31 @@ main {
 #section1{
     background-color: #22B573;
     text-align: center;
-    padding: 5rem;
+    padding: 2rem 5rem;
     width: 65%;
     margin: 4rem auto;
 }
+
+.subtitle {
+    margin-top: 0;
+}
+
 .contenus-section1{
     display: flex;
 }
 
 
+#gallerie{
+    height: 30rem;
+    width: auto;
+    margin: 3rem 6rem;
+    border: solid white 0.5rem
+}
+
+.textS1{
+    margin: 3rem 0rem;
+    flex-grow: 1;
+    text-align: left;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}

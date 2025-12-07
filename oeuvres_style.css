@@ -1,0 +1,7 @@
+.imgs2{
+    width: 30%; 
+    height: auto;
+    flex-shrink: 0; 
+    margin: 2vw 0 0 0;
+    border: solid white 0.5vw; 
+}

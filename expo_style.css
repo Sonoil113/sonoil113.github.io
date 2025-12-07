@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Futura_Bold';
+    src: url(Multimedia/fonts/Futura_Bold.otf);
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(Multimedia/fonts/Lato-Regular.ttf);
+}
+
+body {
+    background-color: #fff7d4;
+    font-family: 'Futura_Bold',sans-serif;
+    color: white;
+    margin: 0;
+}
+section{
+    background-color: #FF3D09;
+    text-align: center;
+    width: 65%;
+    padding: 3vw 6vw;
+    margin: 5vw auto;
+}
+img{
+    width: 40%; 
+    height: auto;
+    flex-shrink: 0; 
+    border: solid white 0.5vw;
+}
+span{
+    font-family: 'Lato-regalar',sans-serif;
+}
+.imgs2{
+    width: 30%; 
+    height: auto;
+    flex-shrink: 0; 
+    margin: 2vw 0 0 0;
+    border: solid white 0.5vw; 
+}

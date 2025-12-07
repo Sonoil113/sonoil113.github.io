@@ -137,6 +137,15 @@ main {
     margin-top: 0;
 }
 
+.foots2 a{
+    text-decoration: none;
+    color: white
+}
+
+.foots2 a:hover{
+    text-decoration: underline;
+}
+
 #aname{
     font-family: 'Lato-Regular', sans-serif;
     color: white; 
@@ -239,6 +248,7 @@ footer h2, footer h3 {
 
 #horaires tr td:last-child {
     font-family: 'Lato-Regular', sans-serif;
+    text-align: center;
 }
 
 .part1 p {
@@ -281,4 +291,10 @@ footer .homeb {
     font-size: 1.2vw;
     text-align: center;
     width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+footer .homeb:hover {
+    text-decoration: underline;
 }

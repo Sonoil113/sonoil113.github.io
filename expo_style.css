@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box; /* Risolve problemi di overflow dovuti a padding e border */
+}
+
 @font-face {
     font-family: 'Futura_Bold';
     src: url(Multimedia/fonts/Futura_Bold.otf);
@@ -14,6 +20,7 @@ body {
     color: white;
     margin: 0;
 }
+
 section{
     background-color: #FF3D09;
     text-align: center;
@@ -21,12 +28,26 @@ section{
     padding: 3vw 6vw;
     margin: 5vw auto;
 }
+
+p {
+    margin: 2vw auto;
+    line-height: 1.4;
+    font-size: 1vw;
+}
+
+section div {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
 img{
     width: 40%; 
     height: auto;
     flex-shrink: 0; 
     border: solid white 0.5vw;
+    margin-top: 2vw;
 }
+
 span{
     font-family: 'Lato-regalar',sans-serif;
 }
@@ -36,4 +57,56 @@ span{
     flex-shrink: 0; 
     margin: 2vw 0 0 0;
     border: solid white 0.5vw; 
+}
+.cauthor{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 30%;
+}
+.homeb{
+    font-size: 1.2vw;
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+.homeb:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 760px) {
+    section {
+        background-color: #22B573;
+        width: 90%;
+        margin: 5vw 5%;
+        padding: 5vw 3vw;
+    }
+
+    h2 {
+        font-size: 5vw;
+    }
+    img {
+        width: 80%;
+    }
+
+    p {
+        font-size: 3.5vw; 
+        line-height: 1.5;
+    }
+    
+    .imgs2 {
+        width: 100%;
+        margin-bottom: 3vw; 
+    }
+
+    .cauthor {
+        width: 100%; 
+        margin-left: 0; 
+        margin-right: 0; 
+        text-align: center;
+    }
+
+    .homeb {
+        font-size: 4vw;
+    }
 }

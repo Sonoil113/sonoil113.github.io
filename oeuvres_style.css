@@ -1,7 +1,74 @@
+@font-face {
+    font-family: 'Futura_Bold';
+    src: url(Multimedia/fonts/Futura_Bold.otf);
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    src: url(Multimedia/fonts/Lato-Regular.ttf);
+}
+
+body {
+    background-color: #fff7d4;
+    font-family: 'Futura_Bold',sans-serif;
+    color: white;
+    margin: 0;
+}
+
+section{
+    background-color: #1F72FF;
+    text-align: center;
+    width: 65%;
+    padding: 3vw 6vw;
+    margin: 5vw auto;
+}
+
 .imgs2{
     width: 30%; 
     height: auto;
     flex-shrink: 0; 
     margin: 2vw 0 0 0;
     border: solid white 0.5vw; 
+}
+
+p{
+    margin-top: 2.5vw;
+}
+
+.homeb{
+    font-size: 1.5vw;
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.homeb:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 760px) {
+    section {
+        width: 80%;
+        padding: 5vw 4vw;
+        margin: 5vw auto;
+        background-color: #FF66C4;
+    }
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgs2 {
+        width: 90%;
+        height: auto;
+        margin: 3vw 0;
+        border: solid white 2vw; 
+    }
+
+    .homeb {
+        font-size: 2.5vw; /
+    }
 }

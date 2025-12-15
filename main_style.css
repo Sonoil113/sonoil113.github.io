@@ -188,6 +188,15 @@ main {
     font-size: 1.2vw;
 }
 
+#section3 a{
+    color: white;
+    text-decoration: none;
+}
+
+#section3 a:hover{
+    text-decoration: underline;
+}
+
 footer{
     background-color: #22B573;
     display: flex;
@@ -198,7 +207,7 @@ footer{
     padding: 3vw 6vw 0;
     margin: 5vw auto;
     width: 65%;
-
+    align-items: center;
 }
 
 footer h2, footer h3 {
@@ -211,6 +220,23 @@ footer h2, footer h3 {
 .part1, .part2 {
     width: 48%; 
     text-align: left;
+}
+
+.part1{
+    padding-right: 2%;
+}
+
+.part2 {
+    width: 46%;
+    text-align: left;
+}
+
+#separator {
+    width: 0.1vw;
+    background-color: white; 
+    height: 25vw;
+    margin-top: 2vw;
+    margin-right: 2vw;
 }
 
 .subp1-1 {
@@ -297,4 +323,157 @@ footer .homeb {
 
 footer .homeb:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    
+    header,
+    #section1,
+    #section2,
+    #section3,
+    footer {
+        width: 90%;
+        max-width: 500px;
+        padding: 5vw 6vw;
+        margin: 5vw auto;
+        background-color: #4910BC;
+    }
+
+    header img {
+        width: 60vw;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    nav ul li a {
+        font-size: 4vw;
+    }
+
+    .contenus-section1 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    #gallerie {
+        width: 80%;
+        margin: 3vw auto;
+    }
+
+    .textS1 {
+        font-size: 4vw;
+        text-align: center;
+    }
+
+    .contenus-section2,
+    .line1,
+    .line2 {
+        flex-direction: column;
+        gap: 5vw;
+        align-items: center;
+    }
+    
+    .imgs2,
+    .imgs3 {
+        width: 70%;
+    }
+
+    .foots2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;                   
+    }
+
+    #exptitle {
+        margin-bottom: 1.5vw;
+    }
+
+    #exptitle,
+    #aname,
+    .foots2 a p {
+        text-align: center;
+    }
+
+    #section3 p{
+    text-align: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .part1, 
+    .part2 {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 5vw;
+    }
+
+    #separator {
+        display: none;
+    }
+    
+    .subp1-1 {
+        flex-direction: column;
+        gap: 5vw;
+    }
+
+    #contacts,
+    #horaires {
+        width: 100%;
+        text-align: center;
+    }
+
+    #contacts li{
+    text-align: center;
+    font-size: 4vw; 
+    }
+
+    #horaires {
+        width: 100%;
+        text-align: center;
+        font-size: 4vw; 
+    }
+
+    #horaires td {
+        padding: 0.5vw 2vw;
+    }
+
+    #horaires tr td:last-child {
+        text-align: center;
+        padding-right: 0;
+    }
+    
+    .part1 p {
+        margin-top: 5vw;
+    }
+
+    footer h2, footer h3 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    #contact-form input,
+    #contact-form textarea {
+        font-size: 4vw;
+        padding: 2vw;
+    }
+
+    #contact-form input[type="text"],
+    #contact-form input[type="email"],
+    #contact-form textarea {
+    color: #4910BC; 
+    }
+
+
+    #contact-form input::placeholder,
+    #contact-form textarea::placeholder {
+    color: #4910BC;
+    opacity: 1;
+    }
 }
